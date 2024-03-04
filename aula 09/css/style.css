@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-rows: 82vh 13vh 5vh ;
+    background-color: rgb(5, 187, 233);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 3, 187);
+    gap: 10px;
+    align-items: center;
+}
