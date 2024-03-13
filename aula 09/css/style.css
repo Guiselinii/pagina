@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
 body{
     display: grid;
     grid-template-rows: 82vh 13vh 5vh ;
@@ -11,4 +16,15 @@ body{
     background-color: rgb(197, 3, 187);
     gap: 10px;
     align-items: center;
+    
+}
+
+.container img{
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 6px;
+    max-width: 100%;
 }
