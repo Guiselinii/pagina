@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplos-getElementById</title>
+</head>
+<body>
+    <h1>modificar conteudo de elemento</h1>
+    <div id="meuelemento">conteudo inicial</div>
+    <button onclick="modificar()">mudar</button>
+    <hr>
+    
+
+    <h1>excluir elemento</h1>
+    <button onclick="excluir()">remover</button>
+    <button onclick="aparecer()">aparecer</button>
+    <div id="outraimagem">
+    <img src="img/images.png" alt="" id="img">
+    </div>
+    <hr>
+    
+</body>
+<script>
+    function modificar(){
+        var elemento = document.getElementById('meuelemento');
+        elemento.innerHTML = 'Gabriel';
+    }
+
+</script>
+</html>

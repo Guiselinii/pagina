@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>metodo queryselector()</h1>
+
+    <p class="example">paragrafo</p>
+    <p class="example">paragrafo</p>
+    <div id="nome">nome</div>
+    
+    <script>
+        const lista = document.querySelectorAll('.example')
+        for (let i = 0 ; i < lista.length ; i++){
+            lista[i].style.backgroundColor = 'pink'
+        }
+
+        function colorir(){
+            var elemento = document,getElementById ('cor')
+            elemento.style.fontSize = '50px'; 
+            elemento.style.color = 'pink';
+            elemento.style.fontWeight = 'bold';
+        }
+
+    </script>
+
+</body>
+</html>
