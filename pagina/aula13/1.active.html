@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>active</title>
+</head>
+<body onclick="minhafuncao()">
+    <h1>O elemento active</h1>
+    <h2>a propriedade do elemento active</h2>
+    <input type="text" value="campo de texto"id=''>
+    <button>botão</button>
+
+    <p>clique em qualquer lugar para ativara o elemento</p>
+
+    <p id="demo"></p>
+
+    <script>
+        function minhafuncao(){
+            const elemento = document.activeElement.tagName;
+            document.getElementById('demo').innerHTML = elemento
+        }
+    </script>
+
+    
+</body>
+</html>
